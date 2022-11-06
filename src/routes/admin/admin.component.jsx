@@ -1,7 +1,15 @@
 
+import Editor from "../../components/editor/editor.component";
+import OnTap from "../../components/on-tap/on-tap.component";
+
+import './admin.styles.css'
+
 const Admin = () => {
     return (
-        <div>I am the Admin Component</div>
+        <div className="admin-container">
+            <Editor />
+            <OnTap />
+        </div>
     )
 }
 
